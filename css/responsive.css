@@ -1,0 +1,139 @@
+@media screen and (max-width: 1024px) {
+  .container-2 {
+    padding: 0 2rem;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  html {
+    font-size: 55.5%;
+  }
+  /* =========== header start =============================== */
+  .mobile-btn {
+    display: block;
+  }
+
+  .navbar {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--helper);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s linear;
+    transform: translateX(100%);
+    visibility: hidden;
+  }
+
+  .navbar-list {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .navbar-link {
+    font-size: 2rem;
+  }
+
+  .menu {
+    width: 30px;
+    height: 30px;
+  }
+
+  .close {
+    width: 30px;
+    height: 30px;
+  }
+
+  .active .navbar {
+    transform: translateX(0%);
+    visibility: visible;
+  }
+
+  .active .menu {
+    display: none;
+  }
+
+  .active .close {
+    display: block;
+  }
+  /* ========================================== */
+
+  /* =========== portfolio section start =============================== */
+  .p-card {
+    gap: 1.5rem;
+  }
+  /* ========================================== */
+
+  /* =========== services section start =============================== */
+  .services-box {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+  /* ========================================== */
+}
+
+@media screen and (max-width: 450px) {
+  /* =========== hero section start =============================== */
+  .hero {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .hero-data {
+    text-align: center;
+    align-items: center;
+  }
+  /* ========================================== */
+
+  /* =========== bio-data section start =============================== */
+  .bio-data {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .bio-data-image {
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+
+  .bio-data-img {
+    width: 70%;
+  }
+  /* ========================================== */
+
+  /* =========== portfolio section start =============================== */
+  .p-btns {
+    flex-wrap: wrap;
+  }
+
+  .p-card {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  /* ========================================== */
+
+  /* =========== counter section start =============================== */
+  .counter {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  /* ========================================== */
+
+  /* =========== services section start =============================== */
+  .services-box {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  /* ========================================== */
+
+  /* =========== footer start =============================== */
+  .footer {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  /* ========================================== */
+}
+
+@media screen and (max-width: 320px) {
+  input[type="submit"] {
+    max-width: 70%;
+  }
+}

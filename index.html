@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Portfolio Design">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Ashwinee Kumar Sethi">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="icon" href="images/favicon-32x32.png">
+</head>
+
+<body>
+    <!-- =========== header start ========================== -->
+    <header class="common-bg">
+        <div class="container header-content">
+            <img src="images/icons8-airbnb (1).svg" alt="main-logo" class="logo">
+
+            <nav class="navbar">
+                <ul class="navbar-list flex">
+                    <li><a href="index.html" class="navbar-link home-link">Home</a></li>
+                    <li><a href="about.html" class="navbar-link about-link">About</a></li>
+                    <li><a href="services.html" class="navbar-link service-link">Services</a></li>
+                    <li><a href="contact.html" class="navbar-link contact-link">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="mobile-btn">
+                <ion-icon name="menu-outline" class="menu"></ion-icon>
+                <ion-icon name="close-outline" class="close"></ion-icon>
+            </div>
+        </div>
+    </header>
+    <!-- =========== header end ========================== -->
+
+    <!-- =========== hero section start ================== -->
+    <main class="common-bg">
+        <section class="container-2 section-hero section">
+            <div class="grid grid-two-column hero">
+                <div class="hero-data flex">
+                    <p class="hero-top-data">This is me</p>
+                    <h1 class="hero-heading">Ashwinee Kumar Sethi</h1>
+                    <p class="hero-para">I'm Ashwinee Kumar Sethi. I'm A Front-end Developer and A Freelancer.👨‍💻</p>
+                    <div>
+                        <a href="#" class="links">Hire Me</a>
+                    </div>
+                </div>
+                <div class="hero-image flex">
+                    <img src="images/hero.jpg" alt="hero-jpg" class="hero-img">
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- =========== hero section end ================== -->
+
+    <!-- =========== bio-data section start ================== -->
+    <section class="common-bg section">
+        <div class="container-2 grid grid-two-column bio-data">
+            <div class="bio-data-image">
+                <img src="images/biodata.jpg" alt="biodata image" class="bio-data-img">
+            </div>
+            <div class="bio-data">
+                <h2 class="common-heading">My bio-data</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi expedita hic facere adipisci
+                    suscipit voluptatem, enim quidem labore perferendis ratione deleniti repellendus reprehenderit
+                    excepturi quis deserunt assumenda perspiciatis repellat itaque magni repudiandae consequuntur cum!
+                </p>
+                <div class="bio-data-stats">
+                    <div class="bio-stats">
+                        <h3>UI/UX</h3>
+                        <div class="bio-progress-bar">
+                            <span class="flex">70%</span>
+                        </div>
+                    </div>
+                    <div class="bio-stats">
+                        <h3>HTML</h3>
+                        <div class="bio-progress-bar bio-progress-2">
+                            <span class="flex">85%</span>
+                        </div>
+                    </div>
+                    <div class="bio-stats">
+                        <h3>CSS</h3>
+                        <div class="bio-progress-bar bio-progress-3">
+                            <span class="flex">90%</span>
+                        </div>
+                    </div>
+                    <div class="bio-stats">
+                        <h3>JAVASCRIPT</h3>
+                        <div class="bio-progress-bar bio-progress-4">
+                            <span class="flex">75%</span>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <a href="#" class="links">download cv</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- =========== bio-data section end ================== -->
+
+    <!-- =========== portfolio section start ================== -->
+    <section class="common-bg section">
+        <div class="container-2">
+            <h2 class="common-heading">Latest works</h2>
+            <p class="portfolio-para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati non dolorum ea
+                unde quo repellat cupiditate ad voluptas cumque eligendi!</p>
+            <div class="p-btns flex">
+                <a href="#!" class="links p-btn" data-filter="all">All Works</a>
+                <a href="#!" class="links p-btn" data-filter="site">Website</a>
+                <a href="#!" class="links p-btn" data-filter="tube">Youtube</a>
+                <a href="#!" class="links p-btn" data-filter="sign">Design</a>
+            </div>
+            <div class="grid grid-three-column p-card">
+                <div class="img-overlay" data-item="site">
+                    <img src="images/folio/1.jpg" alt="folio1">
+                    <div class="overlay flex"><a href="#" class="common-heading">project</a></div>
+                </div>
+                <div class="img-overlay" data-item="tube">
+                    <img src="images/folio/2.jpg" alt="folio2">
+                    <div class="overlay flex"><a href="#" class="common-heading">project</a></div>
+                </div>
+                <div class="img-overlay" data-item="sign">
+                    <img src="images/folio/3.jpg" alt="folio3">
+                    <div class="overlay flex"><a href="#" class="common-heading">project</a></div>
+                </div>
+                <div class="img-overlay" data-item="site">
+                    <img src="images/folio/5.jpg" alt="folio4">
+                    <div class="overlay flex"><a href="#" class="common-heading">project</a></div>
+                </div>
+                <div class="img-overlay" data-item="tube">
+                    <img src="images/folio/4.jpg" alt="folio5">
+                    <div class="overlay flex"><a href="#" class="common-heading">project</a></div>
+                </div>
+                <div class="img-overlay" data-item="sign">
+                    <img src="images/folio/6.jpg" alt="folio6">
+                    <div class="overlay flex"><a href="#" class="common-heading">project</a></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- =========== portfolio section end ================== -->
+
+    <!-- =========== counter section start =================== -->
+    <section class="common-bg section counter-section">
+        <div class="container-2 grid grid-four-column counter">
+            <div>
+                <h2 class="counter-number" data-number="2000">0+</h2>
+                <p>project completed</p>
+            </div>
+            <div>
+                <h2 class="counter-number" data-number="5000">0+</h2>
+                <p>cups of coffee</p>
+            </div>
+            <div>
+                <h2 class="counter-number" data-number="3000">0+</h2>
+                <p>real professonals</p>
+            </div>
+            <div>
+                <h2 class="counter-number" data-number="6000">0+</h2>
+                <p>happy clients</p>
+            </div>
+        </div>
+    </section>
+    <!-- ============= counter section end ======================= -->
+
+    <!-- =========== services section start =================== -->
+    <section class="common-bg section">
+        <div class="container-2">
+            <h2 class="common-heading">Services</h2>
+            <p class="services-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni nobis eaque maxime
+                repellendus. Id iure, odit rerum non quidem unde.</p>
+
+            <div class="services-box grid grid-three-column">
+                <div class="service-box">
+                    <ion-icon name="albums-outline" class="service-icon"></ion-icon>
+                    <h3>UI/UX Design</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio neque consectetur, beatae
+                        accusamus voluptatibus asperiores. Fuga, quae. Facilis, odit qui!</p>
+                </div>
+                <div class="service-box">
+                    <ion-icon name="leaf-outline" class="service-icon"></ion-icon>
+                    <h3>Graphic Design</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio neque consectetur, beatae
+                        accusamus
+                        voluptatibus asperiores. Fuga, quae. Facilis, odit qui!</p>
+                </div>
+                <div class="service-box">
+                    <ion-icon name="camera-outline" class="service-icon"></ion-icon>
+                    <h3>Photography</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio neque consectetur, beatae
+                        accusamus
+                        voluptatibus asperiores. Fuga, quae. Facilis, odit qui!</p>
+                </div>
+                <div class="service-box">
+                    <ion-icon name="apps-outline" class="service-icon"></ion-icon>
+                    <h3>App Development</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio neque consectetur, beatae
+                        accusamus
+                        voluptatibus asperiores. Fuga, quae. Facilis, odit qui!</p>
+                </div>
+                <div class="service-box">
+                    <ion-icon name="code-slash-outline" class="service-icon"></ion-icon>
+                    <h3>Web Development</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio neque consectetur, beatae
+                        accusamus
+                        voluptatibus asperiores. Fuga, quae. Facilis, odit qui!</p>
+                </div>
+                <div class="service-box">
+                    <ion-icon name="tv-outline" class="service-icon"></ion-icon>
+                    <h3>Video Editing</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio neque consectetur, beatae
+                        accusamus
+                        voluptatibus asperiores. Fuga, quae. Facilis, odit qui!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ============= services section end ======================= -->
+
+    <!-- =========== review section start =================== -->
+    <section class="common-bg section">
+        <div class="container-2">
+            <h2 class="common-heading">happy client works</h2>
+
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="client-message">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis fuga deserunt laborum ut,
+                                exercitationem voluptate voluptas iusto placeat inventore reiciendis.</p>
+                        </div>
+                        <div class="client-data grid grid-two-column">
+                            <figure>
+                                <img src="images/clients/a.jpg" alt="" class="client-img">
+                            </figure>
+                            <div>
+                                <h5>Jhon Deo</h5>
+                                <p>Entrepruner</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="client-message">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis fuga deserunt laborum ut,
+                                exercitationem voluptate voluptas iusto placeat inventore reiciendis.</p>
+                        </div>
+                        <div class="client-data grid grid-two-column">
+                            <figure>
+                                <img src="images/clients/b.jpg" alt="" class="client-img">
+                            </figure>
+                            <div>
+                                <h5>Jhon Deo</h5>
+                                <p>Entrepruner</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="client-message">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis fuga deserunt laborum ut,
+                                exercitationem voluptate voluptas iusto placeat inventore reiciendis.</p>
+                        </div>
+                        <div class="client-data grid grid-two-column">
+                            <figure>
+                                <img src="images/clients/c.jpg" alt="" class="client-img">
+                            </figure>
+                            <div>
+                                <h5>Jhon Deo</h5>
+                                <p>Entrepruner</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="client-message">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis fuga deserunt laborum ut,
+                                exercitationem voluptate voluptas iusto placeat inventore reiciendis.</p>
+                        </div>
+                        <div class="client-data grid grid-two-column">
+                            <figure>
+                                <img src="images/clients/d.jpg" alt="" class="client-img">
+                            </figure>
+                            <div>
+                                <h5>Jhon Deo</h5>
+                                <p>Entrepruner</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="client-message">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis fuga deserunt laborum ut,
+                                exercitationem voluptate voluptas iusto placeat inventore reiciendis.</p>
+                        </div>
+                        <div class="client-data grid grid-two-column">
+                            <figure>
+                                <img src="images/clients/e.jpg" alt="" class="client-img">
+                            </figure>
+                            <div>
+                                <h5>Jhon Deo</h5>
+                                <p>Entrepruner</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="client-message">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis fuga deserunt laborum ut,
+                                exercitationem voluptate voluptas iusto placeat inventore reiciendis.</p>
+                        </div>
+                        <div class="client-data grid grid-two-column">
+                            <figure>
+                                <img src="images/clients/f.jpg" alt="" class="client-img">
+                            </figure>
+                            <div>
+                                <h5>Jhon Deo</h5>
+                                <p>Entrepruner</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="client-message">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis fuga deserunt laborum ut,
+                                exercitationem voluptate voluptas iusto placeat inventore reiciendis.</p>
+                        </div>
+                        <div class="client-data grid grid-two-column">
+                            <figure>
+                                <img src="images/clients/g.jpg" alt="" class="client-img">
+                            </figure>
+                            <div>
+                                <h5>Jhon Deo</h5>
+                                <p>Entrepruner</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="client-message">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis fuga deserunt laborum ut,
+                                exercitationem voluptate voluptas iusto placeat inventore reiciendis.</p>
+                        </div>
+                        <div class="client-data grid grid-two-column">
+                            <figure>
+                                <img src="images/clients/h.jpg" alt="" class="client-img">
+                            </figure>
+                            <div>
+                                <h5>Jhon Deo</h5>
+                                <p>Entrepruner</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+
+        </div>
+    </section>
+    <!-- ============= review section end ======================= -->
+
+    <!-- =========== freelancing section start =================== -->
+    <section class="common-bg section freelancing-section">
+        <div class="container-2">
+            <h2>I am <span>available</span> for freelancing</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus assumenda sit minus laudantium nisi
+                blanditiis esse temporibus corporis, error deserunt totam distinctio aut ex at.</p>
+            <a href="#" class="links">Hire Me</a>
+        </div>
+    </section>
+    <!-- =========== freelancing section end =================== -->
+
+    <!-- =========== contact section start =================== -->
+    <section class="common-bg section">
+        <div class="container-2">
+            <h2 class="common-heading">Contact Us</h2>
+            <div class="form-container flex">
+                <form action="https://formspree.io/f/mdovzdqq" method="POST">
+                    <div class="grid grid-two-column">
+                        <div>
+                            <label for="user-name"></label>
+                            <input type="text" id="user-name" placeholder="User-name" required autocomplete="off"
+                                name="user-name">
+                        </div>
+                        <div>
+                            <label for="email"></label>
+                            <input type="email" id="email" placeholder="Example@gmail.com" required autocomplete="off"
+                                name="email">
+                        </div>
+                    </div>
+                    <div>
+                        <label for="subject"></label>
+                        <input type="text" id="subject" placeholder="Subject" required autocomplete="off"
+                            name="subject">
+                    </div>
+                    <div>
+                        <label for="text-area"></label>
+                        <textarea name="text-area" id="text-area" cols="30" rows="10" minlength="10" maxlength="50"
+                            required autocomplete="off"></textarea>
+                    </div>
+                    <input type="submit" value="Send Message" class="links">
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- =========== contact section end =================== -->
+
+    <!-- =========== footer section start =================== -->
+    <footer class="common-bg section footer-section">
+        <div class="container-2">
+            <div class="grid grid-four-column footer">
+                <div class="f-about">
+                    <h3>About</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae accusamus facilis ratione ipsamqui
+                        cupiditate.</p>
+                </div>
+                <div class="f-links">
+                    <h3>Links</h3>
+                    <ul>
+                        <li><ion-icon name="arrow-forward-outline"></ion-icon> Home</li>
+                        <li><ion-icon name="arrow-forward-outline"></ion-icon> About</li>
+                        <li><ion-icon name="arrow-forward-outline"></ion-icon> Services</li>
+                        <li><ion-icon name="arrow-forward-outline"></ion-icon> Portfolio</li>
+                        <li><ion-icon name="arrow-forward-outline"></ion-icon> Contact</li>
+                    </ul>
+                </div>
+                <div class="f-services">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><ion-icon name="arrow-forward-outline"></ion-icon> UI/UX Design</li>
+                        <li><ion-icon name="arrow-forward-outline"></ion-icon> Graphic Design</li>
+                        <li><ion-icon name="arrow-forward-outline"></ion-icon> App Development</li>
+                        <li><ion-icon name="arrow-forward-outline"></ion-icon> Web Development</li>
+                        <li><ion-icon name="arrow-forward-outline"></ion-icon> Video Editing</li>
+                    </ul>
+                </div>
+                <div class="f-addres">
+                    <h3>Contact</h3>
+                    <ul>
+                        <li><ion-icon name="location-outline"></ion-icon> Odisha, India</li>
+                        <li><ion-icon name="call-outline"></ion-icon> +91 9876543210</li>
+                        <li><ion-icon name="mail-outline"></ion-icon> xyz@gmail.com</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="social flex ">
+                <a href="#"><ion-icon name="logo-instagram" class="f-logo"></ion-icon></a>
+                <a href="#"><ion-icon name="logo-twitter" class="f-logo"></ion-icon></a>
+                <a href="#"><ion-icon name="logo-youtube" class="f-logo"></ion-icon></a>
+            </div>
+            <p class="credit">Copyright @2023 All rights reserved | This template is made ❤ by Ashwinee.</p>
+        </div>
+    </footer>
+    <!-- =========== footer section end =================== -->
+
+
+
+    <!-- ======== swiper ======== -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <!-- ======== swiper ======== -->
+    <!-- index js -->
+    <script src="index.js"></script>
+    <!-- ========= -->
+    <!-- icon -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <!-- ========= -->
+</body>
+
+</html>

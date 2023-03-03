@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="Portfolio Design" />
+    <meta name="keywords" content="HTML, CSS, JavaScript" />
+    <meta name="author" content="Ashwinee Kumar Sethi" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <link rel="icon" href="images/favicon-32x32.png" />
+</head>
+
+<body>
+    <!-- =========== header start ========================== -->
+    <header class="common-bg">
+        <div class="container header-content">
+            <img src="images/icons8-airbnb (1).svg" alt="main-logo" class="logo" />
+
+            <nav class="navbar">
+                <ul class="navbar-list flex">
+                    <li><a href="index.html" class="navbar-link home-link">Home</a></li>
+                    <li>
+                        <a href="about.html" class="navbar-link about-link">About</a>
+                    </li>
+                    <li>
+                        <a href="services.html" class="navbar-link service-link">Services</a>
+                    </li>
+                    <li>
+                        <a href="contact.html" class="navbar-link contact-link">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="mobile-btn">
+                <ion-icon name="menu-outline" class="menu"></ion-icon>
+                <ion-icon name="close-outline" class="close"></ion-icon>
+            </div>
+        </div>
+    </header>
+    <!-- =========== header end ========================== -->
+
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12590.294491736715!2d85.81076992553028!3d20.253984047921712!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a19a70f034c758d%3A0xda434edd567b3553!2sBiju%20Patnaik%20International%20Airport!5e0!3m2!1sen!2sin!4v1677607017308!5m2!1sen!2sin"
+        width="100%" height="450" style="border: 0" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+
+    <!-- =========== contact section start =================== -->
+    <section class="common-bg section">
+        <div class="container-2">
+            <h2 class="common-heading">Contact Us</h2>
+            <div class="form-container flex">
+                <form action="https://formspree.io/f/mdovzdqq" method="POST">
+                    <div class="grid grid-two-column">
+                        <div>
+                            <label for="user-name"></label>
+                            <input type="text" id="user-name" placeholder="User-name" required autocomplete="off"
+                                name="user-name" />
+                        </div>
+                        <div>
+                            <label for="email"></label>
+                            <input type="email" id="email" placeholder="Example@gmail.com" required autocomplete="off"
+                                name="email" />
+                        </div>
+                    </div>
+                    <div>
+                        <label for="subject"></label>
+                        <input type="text" id="subject" placeholder="Subject" required autocomplete="off"
+                            name="subject" />
+                    </div>
+                    <div>
+                        <label for="text-area"></label>
+                        <textarea name="text-area" id="text-area" cols="30" rows="10" minlength="10" maxlength="50"
+                            required autocomplete="off"></textarea>
+                    </div>
+                    <input type="submit" value="Send Message" class="links" />
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- =========== contact section end =================== -->
+
+    <!-- =========== footer section start =================== -->
+    <footer class="common-bg section footer-section">
+        <div class="container-2">
+            <div class="grid grid-four-column footer">
+                <div class="f-about">
+                    <h3>About</h3>
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae
+                        accusamus facilis ratione ipsamqui cupiditate.
+                    </p>
+                </div>
+                <div class="f-links">
+                    <h3>Links</h3>
+                    <ul>
+                        <li><ion-icon name="arrow-forward-outline"></ion-icon> Home</li>
+                        <li><ion-icon name="arrow-forward-outline"></ion-icon> About</li>
+                        <li>
+                            <ion-icon name="arrow-forward-outline"></ion-icon> Services
+                        </li>
+                        <li>
+                            <ion-icon name="arrow-forward-outline"></ion-icon> Portfolio
+                        </li>
+                        <li>
+                            <ion-icon name="arrow-forward-outline"></ion-icon> Contact
+                        </li>
+                    </ul>
+                </div>
+                <div class="f-services">
+                    <h3>Services</h3>
+                    <ul>
+                        <li>
+                            <ion-icon name="arrow-forward-outline"></ion-icon> UI/UX Design
+                        </li>
+                        <li>
+                            <ion-icon name="arrow-forward-outline"></ion-icon> Graphic
+                            Design
+                        </li>
+                        <li>
+                            <ion-icon name="arrow-forward-outline"></ion-icon> App
+                            Development
+                        </li>
+                        <li>
+                            <ion-icon name="arrow-forward-outline"></ion-icon> Web
+                            Development
+                        </li>
+                        <li>
+                            <ion-icon name="arrow-forward-outline"></ion-icon> Video Editing
+                        </li>
+                    </ul>
+                </div>
+                <div class="f-addres">
+                    <h3>Contact</h3>
+                    <ul>
+                        <li>
+                            <ion-icon name="location-outline"></ion-icon> Odisha, India
+                        </li>
+                        <li><ion-icon name="call-outline"></ion-icon> +91 9876543210</li>
+                        <li><ion-icon name="mail-outline"></ion-icon> xyz@gmail.com</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="social flex">
+                <a href="#"><ion-icon name="logo-instagram" class="f-logo"></ion-icon></a>
+                <a href="#"><ion-icon name="logo-twitter" class="f-logo"></ion-icon></a>
+                <a href="#"><ion-icon name="logo-youtube" class="f-logo"></ion-icon></a>
+            </div>
+            <p class="credit">
+                Copyright @2023 All rights reserved | This template is made ❤ by
+                Ashwinee.
+            </p>
+        </div>
+    </footer>
+    <!-- =========== footer section end =================== -->
+
+
+
+
+    <!-- ======== swiper ======== -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <!-- ======== swiper ======== -->
+    <!-- index js -->
+    <script src="index.js"></script>
+    <!-- ========= -->
+    <!-- icon -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <!-- ========= -->
+</body>
+
+</html>
